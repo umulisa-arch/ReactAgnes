@@ -1,5 +1,6 @@
 import React from "react"
 import Login from './Components/Login/login'
+import Home from './Components/Login/home'
 
 function App() {
   
@@ -10,6 +11,8 @@ function App() {
           
           
           <Login/>
+          <Home/>
+
         </div>
     </>
   );
